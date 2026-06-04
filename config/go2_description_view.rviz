@@ -6,8 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /TF1/Frames1
-        - /filtered_camera_points1
-        - /filtered_camera_points1/Topic1
       Splitter Ratio: 0.4477911591529846
     Tree Height: 492
   - Class: rviz_common/Selection
@@ -429,7 +427,7 @@ Visualization Manager:
       Channel Name: intensity
       Class: rviz_default_plugins/PointCloud2
       Color: 153; 193; 241
-      Color Transformer: FlatColor
+      Color Transformer: Intensity
       Decay Time: 0
       Enabled: true
       Invert Rainbow: false
@@ -475,7 +473,7 @@ Visualization Manager:
       Position Transformer: XYZ
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.004999999888241291
+      Size (m): 0.009999999776482582
       Style: Flat Squares
       Topic:
         Depth: 5
@@ -557,7 +555,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 5.401299953460693
+      Distance: 3.5241012573242188
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -572,10 +570,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4597960412502289
+      Pitch: 0.4297957718372345
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.5482728481292725
+      Yaw: 2.3982763290405273
     Saved: ~
 Window Geometry:
   Displays:
