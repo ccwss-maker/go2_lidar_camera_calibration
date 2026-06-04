@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+build/
+install/
+log/
+.colcon/
+
+*.bag
+*.db3
+*.mcap
